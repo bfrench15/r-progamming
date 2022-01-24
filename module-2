@@ -1,0 +1,7 @@
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+#create vector and enter values
+myMean <- function(assignment2) { 
+  return(sum(assignment2)/length(assignment2)) }
+#create function "myMean", purpose is to return the mean value of the vector
+myMean(assignment2)
+#use function myMean with vector assignment2, returns value
